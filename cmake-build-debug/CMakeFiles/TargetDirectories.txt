@@ -1,0 +1,3 @@
+C:/Users/86159/CLionProjects/My_Printf/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir
+C:/Users/86159/CLionProjects/My_Printf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/86159/CLionProjects/My_Printf/cmake-build-debug/CMakeFiles/rebuild_cache.dir

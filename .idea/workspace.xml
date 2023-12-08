@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="My_FlyBack" targetName="My_FlyBack.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba2e2f59-f732-45d5-9f7d-6179aab7e05a" name="更改" comment="MY_printf">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Temperature_Trolley.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f1xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_FlyBack.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_FlyBack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F103C8Tx_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/MFRC522.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/Motor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/My_printf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/OLED.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/OLED_Font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/Uart_RxPackage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Inc/retarget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/MFRC522.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/Motor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/My_printf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/OLED.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/Uart_RxPackgae.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/Src/retarget.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5bd8bd387819664fdb05.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-20e27434709ff14afa1b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-e2c4ca7f6f487ea0d69e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/stm32f1xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/system_stm32f1xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/MFRC522.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/Motor.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/My_printf.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/OLED.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/Uart_RxPackgae.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/retarget.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/startup/startup_stm32f103xb.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startup/startup_stm32f103xb.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clion2Mx_1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-437094a5d9fac32dd011.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-48b2a878832d3530f9a8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clion2Mx_1/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-06T09-48-39-0236.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-05T12-29-13-0986.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clion2Mx_1/cmake-build-debug/.cmake/api/v1/reply/target-Clion2Mx_1.elf-Debug-e2d095adeb67c80f3030.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-My_FlyBack.elf-Debug-16c94e85dd529fe9c7e1.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1121" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="221a4ca4-b248-4b86-880e-433d5a05aac4" />
+        <option name="url" value="git@github.com:3CC3/CC_Pirntf.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/User/Inc/My_printf.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/A_UserDownload/Clion2Cubemx_Tool/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2VVtX5p1pRHRLUGBVuc3Ov4chFd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/86159/CLionProjects/A_My_PureTemplate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.My_FlyBack.elf">
+    <configuration name="未命名" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My_FlyBack.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_FlyBack" TARGET_NAME="My_FlyBack.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_FlyBack" RUN_TARGET_NAME="My_FlyBack.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My_FlyBack.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_FlyBack" TARGET_NAME="My_FlyBack.elf" version="1" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\Users\86159\CLionProjects\stm32f103c8_blue_pill.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.未命名" />
+      <item itemvalue="CMake 应用程序.My_FlyBack.elf" />
+      <item itemvalue="OpenOCD 下载并运行.My_FlyBack.elf" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\86159\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ba2e2f59-f732-45d5-9f7d-6179aab7e05a" name="更改" comment="" />
+      <created>1694933112619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694933112619</updated>
+      <workItem from="1694933146757" duration="10887000" />
+      <workItem from="1694946480239" duration="1475000" />
+      <workItem from="1695018862215" duration="83000" />
+      <workItem from="1695018955869" duration="42000" />
+      <workItem from="1695019011943" duration="2742000" />
+      <workItem from="1695023848454" duration="40000" />
+      <workItem from="1695023898683" duration="868000" />
+      <workItem from="1695051438331" duration="1306000" />
+      <workItem from="1695104586766" duration="2478000" />
+      <workItem from="1695109920775" duration="8333000" />
+      <workItem from="1695198964806" duration="648000" />
+      <workItem from="1695202056526" duration="1392000" />
+      <workItem from="1695210309634" duration="1076000" />
+      <workItem from="1695384698640" duration="3450000" />
+      <workItem from="1695541960245" duration="2089000" />
+      <workItem from="1695625538249" duration="197000" />
+      <workItem from="1695722140626" duration="13000" />
+      <workItem from="1695722518531" duration="94000" />
+      <workItem from="1695791991140" duration="3253000" />
+      <workItem from="1695813533593" duration="10507000" />
+      <workItem from="1695962025369" duration="599000" />
+      <workItem from="1696037296375" duration="116000" />
+      <workItem from="1696037483351" duration="17867000" />
+      <workItem from="1696126901012" duration="1000" />
+      <workItem from="1696473882111" duration="1419000" />
+      <workItem from="1696508927385" duration="1258000" />
+      <workItem from="1696561667355" duration="12496000" />
+      <workItem from="1696765753053" duration="4111000" />
+      <workItem from="1696855775435" duration="2185000" />
+      <workItem from="1696948767887" duration="1731000" />
+      <workItem from="1696951421300" duration="1913000" />
+      <workItem from="1696997831843" duration="1389000" />
+      <workItem from="1697112816407" duration="121000" />
+      <workItem from="1697201157583" duration="1914000" />
+      <workItem from="1697207587234" duration="6814000" />
+      <workItem from="1697618312725" duration="644000" />
+      <workItem from="1697619594229" duration="2201000" />
+      <workItem from="1697621829054" duration="12000" />
+      <workItem from="1697621848739" duration="748000" />
+      <workItem from="1698046466549" duration="2276000" />
+      <workItem from="1698110176317" duration="6644000" />
+      <workItem from="1698123911523" duration="198000" />
+      <workItem from="1700360465784" duration="4085000" />
+      <workItem from="1700747539522" duration="21000" />
+      <workItem from="1701308958318" duration="1256000" />
+      <workItem from="1701672779671" duration="787000" />
+      <workItem from="1701673579957" duration="6213000" />
+      <workItem from="1701774933973" duration="17047000" />
+      <workItem from="1701823179902" duration="21654000" />
+      <workItem from="1702019458762" duration="17157000" />
+      <workItem from="1702046222565" duration="538000" />
+    </task>
+    <task id="LOCAL-00001" summary="MY_printf">
+      <created>1702036747793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702036747793</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MY_printf" />
+    <option name="LAST_COMMIT_MESSAGE" value="MY_printf" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
