@@ -101,6 +101,7 @@ int main(void)
 
   /* USER CODE BEGIN Init */
     RetargetInit(&huart1); //重定向串口二
+    MY_Retarget(&huart1);
     //HAL_DMA_Start(&hdma1,);
   /* USER CODE END Init */
 
@@ -124,8 +125,6 @@ int main(void)
     Uart_PackageStart(&Uart2_Package);
     HAL_Delay(250);
 
-    //HAL_UART_Receive_DMA(&huart2,&Uart2_Package.TempData,1);
-
     OLED_Init();
     OLED_ShowString(1,3,"NICE");
     OLED_ShowString(3,10,"APP");
@@ -134,7 +133,7 @@ int main(void)
     char string[10];
     double b = 5.5;
     char c = 'p';
-    printf("a = %d\tb = %f\tc = %c\tstring = %s\r\n",a,b,c,"I got it!");
+    //printf("a = %d\tb = %f\tc = %c\tstring = %s\r\n",a,b,c,"I got it!");
     HAL_Delay(100);
     MY_printf("a = %d\tb = %f\tc = %c\tstring = %s\r\n",a,b,c,"I got it!");
     /* USER CODE END 2 */

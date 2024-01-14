@@ -85,22 +85,20 @@ typedef struct
     uint8_t Direction;
 }__attribute__((packed))MOTOR;  //加入attribute，控制编译器，使得该结构体所占的空间最小（取消了结构体参数的内春的间隙，但是会使得程序运行变慢）
 
-typedef struct
-{
-    UART_HandleTypeDef *huart; //使用的串口
-    TIM_HandleTypeDef *htim; //串口接收数据所用到的定时器
-    uint16_t MAX_RxLength;//�???大字节数
-    uint16_t Cur_RxLength; //当前串口接收数组中的字节�???
-    uint8_t *Rx_Package; //字符接收数组
-    uint8_t *Tx_Package; //字符发�?�数�???
-    uint8_t TempData; //用于暂时存储接收到的�???个字�???
-    volatile uint8_t RxStartFalg; //串口�???始接收字符标志位   因为标志位会在中断里面随时变化，所以是’易变的‘需要加上‘volatile’防止被编译器优化
-    volatile uint8_t RxEndFalg; //串口结束接收字符标志�???
-}__attribute__((packed))UartRx_Package;
+//typedef struct
+//{
+//    UART_HandleTypeDef *huart; //使用的串口
+//    TIM_HandleTypeDef *htim; //串口接收数据所用到的定时器
+//    uint16_t MAX_RxLength;//�???大字节数
+//    uint16_t Cur_RxLength; //当前串口接收数组中的字节�???
+//    uint8_t *Rx_Package; //字符接收数组
+//    uint8_t *Tx_Package; //字符发�?�数�???
+//    uint8_t TempData; //用于暂时存储接收到的�???个字�???
+//    volatile uint8_t RxStartFalg; //串口�???始接收字符标志位   因为标志位会在中断里面随时变化，所以是’易变的‘需要加上‘volatile’防止被编译器优化
+//    volatile uint8_t RxEndFalg; //串口结束接收字符标志�???
+//}__attribute__((packed))UartRx_Package;
 
-extern MOTOR Motor1;
-
-extern UartRx_Package Uart2_Package;
+//extern UartRx_Package Uart2_Package;
 
 /* USER CODE END Private defines */
 

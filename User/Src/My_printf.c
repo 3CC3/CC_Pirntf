@@ -7,7 +7,8 @@
 #include "usart.h"
 #include "stdlib.h"
 
-#define ghuart huart1
+//#define ghuart huart1  //定义所使用的串口
+UART_HandleTypeDef *ghuart;
 int My_Sum(int count,...)
 {
     int sum = 0;
@@ -47,6 +48,10 @@ uint16_t StringLength(const char* string)
     while(*(string+i) != '\0')i++;
     return i;
 }
+void MY_Retarget(UART_HandleTypeDef *huart)
+{
+    ghuart = huart;
+}
 /**
  * 自己的printf
  * @param fmt 格式字符
@@ -62,37 +67,37 @@ void MY_printf(const char* fmt,...)
     {
         if(*(fmt+i) == '%')
         {
-            HAL_UART_Transmit(&ghuart,(uint8_t*)(fmt+k),i-k,999); //仅发送字符到'%'之间的纯字符
+            HAL_UART_Transmit(ghuart,(uint8_t*)(fmt+k),i-k,999); //仅发送字符到'%'之间的纯字符
             i++;
             switch(*(fmt+i))
             {
                 case 'd':  //输出整数
                 {
                     itoa(MY_va_arg(p,int),tempstring,10);
-                    HAL_UART_Transmit(&ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
+                    HAL_UART_Transmit(ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
                     memset(tempstring,0,10);
                 }break;
                 case 'c': //输出字符
                 {
-                    HAL_UART_Transmit(&ghuart,(uint8_t*)&MY_va_arg(p,int),1,999); //以字符串的形式发数字
+                    HAL_UART_Transmit(ghuart,(uint8_t*)&MY_va_arg(p,int),1,999); //以字符串的形式发数字
                 }break;
-                case 'p': //输出地址
+                case 'p': //输出十六进制地址
                 {
                     tempstring[0] = '0';  //加上十六进制的头
                     tempstring[1] = 'x';
                     itoa((int)MY_va_arg(p,int),tempstring+2,16); //把十进制数转为十六进制数后的字符串
-                    HAL_UART_Transmit(&ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
+                    HAL_UART_Transmit(ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
                     memset(tempstring,0,10);  //清除数组防止下次使用的时候有前一次的字符未被覆盖
                 }break;
                 case 's':  //输出字符串
                 {
                     uint8_t *string = (uint8_t*)MY_va_arg(p,int); //取得字符串的首地址
-                    HAL_UART_Transmit(&ghuart,string,StringLength((char*)string),999); //以字符串的形式发数字
+                    HAL_UART_Transmit(ghuart,string,StringLength((char*)string),999); //以字符串的形式发数字
                 }break;
                 case 'f': //输出浮点数
                 {
                     sprintf(tempstring,"%f",(double)MY_va_arg(p,double)); //注意，取出浮点数的时候要用double类型的（8个字节），前四个字节为低位，后四个字节为高位(不完全是整数部分)
-                    HAL_UART_Transmit(&ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
+                    HAL_UART_Transmit(ghuart,(uint8_t*)tempstring,StringLength(tempstring),999); //以字符串的形式发数字
                     memset(tempstring,0,10);  //清除数组防止下次使用的时候有前一次的字符未被覆盖
                 }break;
             }
@@ -102,5 +107,5 @@ void MY_printf(const char* fmt,...)
         i++;
     }
     MY_va_end(p);
-   HAL_UART_Transmit(&ghuart,(uint8_t*)(fmt+k),i-k,999); //发送最后一个'%'到'\n'之间的字符
+   HAL_UART_Transmit(ghuart,(uint8_t*)(fmt+k),i-k,999); //发送最后一个'%'到'\n'之间的字符
 }

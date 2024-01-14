@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
+#include "Uart_RxPackage.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,6 +44,8 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
 uint8_t LED_Flag = 0;
+extern UartRx_Package Uart2_Package;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -259,15 +262,15 @@ void USART2_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
-//定时器中断，0.01s进一次中�?????????
+//定时器中断，0.01s进一次中�?????????
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     static uint16_t Tempnum = 0;
-    if(htim->Instance == TIM2) //判断TIM2的更新中�?????????
+    if(htim->Instance == TIM2) //判断TIM2的更新中�?????????
     {
-        if(Uart2_Package.RxStartFalg == 1) //若串口开始接收数�??????
+        if(Uart2_Package.RxStartFalg == 1) //若串口开始接收数�??????
         {
-            if(Tempnum == Uart2_Package.Cur_RxLength ) //说明串口结束了接收数�??
+            if(Tempnum == Uart2_Package.Cur_RxLength ) //说明串口结束了接收数�??
             {
                 Uart2_Package.RxEndFalg = 1;
                 Uart2_Package.RxStartFalg = 0;
@@ -285,7 +288,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if(huart->Instance == USART2)
     {
-        Uart2_Package.RxStartFalg = 1; //�??????始接收字�??????
+        Uart2_Package.RxStartFalg = 1; //�??????始接收字�??????
         *(Uart2_Package.Rx_Package+Uart2_Package.Cur_RxLength) = Uart2_Package.TempData;
         Uart2_Package.Cur_RxLength++;
     }
