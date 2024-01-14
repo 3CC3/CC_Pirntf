@@ -14,7 +14,7 @@ typedef enum
     My_Error = 0,
     My_Success,
 }Satus;
-typedef struct
+typedef struct UartRx_Package
 {
     UART_HandleTypeDef *huart; //使用的串口
     TIM_HandleTypeDef *htim; //串口接收数据所用到的定时器
@@ -25,6 +25,7 @@ typedef struct
     uint8_t TempData; //用于暂时存储接收到的�???个字�???
     volatile uint8_t RxStartFalg; //串口�???始接收字符标志位   因为标志位会在中断里面随时变化，所以是’易变的‘需要加上‘volatile’防止被编译器优化
     volatile uint8_t RxEndFalg; //串口结束接收字符标志�???
+    void (*PackageStart)(struct UartRx_Package*); //函数指针
 }__attribute__((packed))UartRx_Package;
 
 

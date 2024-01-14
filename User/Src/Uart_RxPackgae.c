@@ -22,6 +22,7 @@ void Uart_RxPackage_Init(UartRx_Package *Uart_PackageHandle,TIM_HandleTypeDef *h
     Uart_PackageHandle->TempData = 0;
     Uart_PackageHandle->RxStartFalg = 0;
     Uart_PackageHandle->RxEndFalg = 0;
+    Uart_PackageHandle->PackageStart = Uart_PackageStart;  //函数指针
 }
 /**
  * 开始串口接收数据函数

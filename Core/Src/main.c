@@ -122,7 +122,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
     Uart_RxPackage_Init(&Uart2_Package,&htim2,200,&huart2); //初始化串口接收数组
-    Uart_PackageStart(&Uart2_Package);
+    Uart2_Package.PackageStart(&Uart2_Package);
     HAL_Delay(250);
 
     OLED_Init();

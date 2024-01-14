@@ -21,18 +21,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba2e2f59-f732-45d5-9f7d-6179aab7e05a" name="更改" comment="MY_printf">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/My_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/My_printf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/Inc/Uart_RxPackage.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/Uart_RxPackage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Src/My_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/My_printf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Src/Uart_RxPackgae.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/Uart_RxPackgae.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/My_printf.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/My_printf.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/stm32f1xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/stm32f1xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/Uart_RxPackgae.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_FlyBack.elf.dir/User/Src/Uart_RxPackgae.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_FlyBack.hex" afterDir="false" />
@@ -209,7 +208,7 @@
       <workItem from="1702046222565" duration="538000" />
       <workItem from="1702049683263" duration="759000" />
       <workItem from="1705193978134" duration="2388000" />
-      <workItem from="1705197870470" duration="666000" />
+      <workItem from="1705197870470" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="MY_printf">
       <created>1702036747793</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702036747793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MY_printf">
+      <created>1705198545946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705198545946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
